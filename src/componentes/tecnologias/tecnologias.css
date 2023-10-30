@@ -1,0 +1,14 @@
+.tecnologias-contenedor{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 6vh 2vw 3vh 0vw;
+}
+
+.contenedor-iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.tecnologias-iconos{
+    width: 4vw;
+}

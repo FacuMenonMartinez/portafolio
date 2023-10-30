@@ -1,4 +1,4 @@
-import Ventana from "./assets/componentes/ventana/Ventana";
+import Ventana from "./componentes/ventana/Ventana";
 import './App.css';
 
 function App() {
