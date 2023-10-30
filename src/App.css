@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: azure;
+}
+.contenedor-general{
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 2vw 0vh 2vw ;
+
+}
+.iconos-secciones{
+  width: 30vw;
+  height: 85vh;
+  background-color: red;
+}
