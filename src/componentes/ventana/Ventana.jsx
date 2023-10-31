@@ -10,13 +10,13 @@ function Ventana() {
                 <img />
                 <h4>Nombre de la app</h4>
                 <div>
-                    <button>Minimizar</button>
-                    <button>Restaurar</button>
-                    <button>Cerrar</button>
+                    <span class="material-symbols-outlined">minimize</span>
+                    <span class="material-symbols-outlined">check_box_outline_blank</span>
+                    <span class="material-symbols-outlined">close</span>
                 </div>
             </div>
-            {/* <Sobre_mi/> */}
-            <Tecnologias/>
+            <Sobre_mi/>
+            {/* <Tecnologias /> */}
         </section>
     )
 }

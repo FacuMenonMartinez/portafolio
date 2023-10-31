@@ -1,13 +1,13 @@
 .ventana-renderizado{
     width: 65vw;
     height: 85vh;
-    background-color: black;
+    background-color: var(--color-blanco);
 }
 
 .barra-superior{
     height: 4%;
     width: 100%;
-    background-color: grey;
+    background-color: var(--color-azul-claro);
     display: flex;
     justify-content: space-between;
 }
