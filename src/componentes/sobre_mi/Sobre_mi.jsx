@@ -14,7 +14,7 @@ function Sobre_mi() {
                 <header className="encabezado-sobreMi">
                     <img className="avatar" src={avatar} />
                     <div className="titulo-sobreMi">
-                        <h1>¡Hola! soy Facundo Menon Martinez</h1>
+                        <h1>¡Hola! <br/>Soy Facundo Menon Martinez</h1>
                         <h3>Desarrollador Frontend</h3>
                     </div>
                 </header>
@@ -25,9 +25,9 @@ function Sobre_mi() {
                     </p>
                 </main>
                 <footer className="footer-sobreMi">
-                <a><img className="img-contacto-sobreMi" src={linkedin}/></a>
-                <a><img className="img-contacto-sobreMi" src={gmail}/></a>
-                <a><img className="img-contacto-sobreMi" src={github}/></a>
+                <a href="https://www.linkedin.com/in/facundo-menon-martinez-870947258/" target="_blank"><img className="img-contacto-sobreMi" src={linkedin}/></a>
+                <a href="mailto:facundomenon.m@gmail.com" target="_blank"><img className="img-contacto-sobreMi" src={gmail}/></a>
+                <a href="https://github.com/FacuMenonMartinez?tab=repositories" target="_blank"><img className="img-contacto-sobreMi" src={github}/></a>
                 </footer>
             </article>
 

@@ -10,8 +10,9 @@ import "./tecnologias.css";
 
 function Tecnologias() {
     return (
-        <article className="contenedor-seccion">
-            <main className="tecnologias-contenedor">
+        <section className="contenedor-seccion">
+
+            <article className="tecnologias-contenedor">
                 <div className="contenedor-iconos">
                     <img className="tecnologias-iconos" src={sass} />
                     <p>sass.exe</p>
@@ -50,8 +51,8 @@ function Tecnologias() {
                     <p>html.exe</p>
 
                 </div>
-            </main>
-        </article>
+            </article>
+        </section>
     )
 }
 

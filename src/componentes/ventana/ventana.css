@@ -2,6 +2,8 @@
     width: 65vw;
     height: 85vh;
     background-color: var(--color-blanco);
+    display: flex;
+    flex-direction: column;
 }
 
 .barra-superior{
@@ -10,4 +12,8 @@
     background-color: var(--color-azul-claro);
     display: flex;
     justify-content: space-between;
+}
+
+.contenedor-seccion{
+    height: 96%;
 }

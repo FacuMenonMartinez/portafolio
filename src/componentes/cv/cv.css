@@ -1,0 +1,11 @@
+.contenedor-cv{
+    display: flex;
+    padding: 3vh 1vw 3vh 1vw;
+}
+
+.curriculum-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3vw;
+}

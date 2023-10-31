@@ -1,5 +1,7 @@
 import Sobre_mi from '../sobre_mi/Sobre_mi';
 import Tecnologias from '../tecnologias/Tecnologias';
+import Cv from '../cv/Cv';
+import Proyectos from '../proyectos/Proyectos';
 import './ventana.css';
 
 function Ventana() {
@@ -15,8 +17,10 @@ function Ventana() {
                     <span class="material-symbols-outlined">close</span>
                 </div>
             </div>
-            <Sobre_mi/>
+            {/* <Sobre_mi/> */}
             {/* <Tecnologias /> */}
+            {/* <Cv/> */}
+            <Proyectos/>
         </section>
     )
 }

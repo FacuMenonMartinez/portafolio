@@ -1,10 +1,9 @@
-.contenedor-seccion{
-    height: 100%;
-}
+
 .contenedor-sobreMi{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    justify-content: space-between;
+    height: 100%;
     overflow: hidden;
     padding: 1vh 1vw 1vh 1vw;
 }
@@ -28,23 +27,24 @@
 }
 
 .titulo-sobreMi > h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .titulo-sobreMi > h3{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .texto-sobreMi{
-    margin-top: 2vh;
+    margin-bottom: 5vh;
+
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .footer-sobreMi{
     width: 100%;
-    margin-top: 5vh;
+    margin-bottom: 4vh;
     display: flex;
     justify-content: space-around;
 
