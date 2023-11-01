@@ -9,3 +9,14 @@
     align-items: center;
     margin-right: 3vw;
 }
+
+.curriculum-item > a{
+    filter: drop-shadow(0px 0px 5px var(--color-azul));
+
+}
+
+.curriculum-item > p{
+    margin-top:1vh ;
+    font-weight: 500;
+
+}

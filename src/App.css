@@ -25,11 +25,36 @@ body{
 
 }
 .iconos-secciones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vh 3vw 1vh 3vw;
   width: 30vw;
   height: 85vh;
-  background-color: red;
 }
 
-.iconos-escritorio{
-  width: 5vw;
+.icono-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vw;
 }
+
+.icono-item > img{
+  max-width: 64px;
+  filter: drop-shadow(1px 1px 5px black);
+}
+.icono-item > p{
+  color: var(--color-blanco);
+  cursor:default ;
+}
+
+.icono-item:hover, .icono-item-seleccionado{
+  background-color: var(--color-azul-claro);
+  outline: 1px solid var(--color-azul-claro-2);
+  border-radius: 5px;
+}
+

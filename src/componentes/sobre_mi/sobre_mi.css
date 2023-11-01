@@ -53,4 +53,5 @@
 .img-contacto-sobreMi{
     max-width: 80%;
     cursor: pointer;
+    filter: drop-shadow(1px 1px 5px black);
 }
