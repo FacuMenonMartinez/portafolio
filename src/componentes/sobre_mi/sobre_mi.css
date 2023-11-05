@@ -10,14 +10,17 @@
 
 .encabezado-sobreMi{
     display: flex;
-    max-height: 50%;
-    overflow: hidden;
     align-items: center;
 
 }
+.contenedor-avatar{
+    max-width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
 .avatar{
-    translate: -3vw;
-    max-width: 40%;
+    max-width: 100%;
     filter: drop-shadow(5px 10px 10px  black);
 }
 
@@ -55,3 +58,40 @@
     cursor: pointer;
     filter: drop-shadow(1px 1px 5px black);
 }
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .contenedor-sobreMi{
+        padding: 0vh 1vw 1vh 1vw;
+        justify-content: flex-start;
+    }
+
+    .contenedor-avatar{
+        width: 35%;
+        max-height: 100%;
+    }
+    .avatar{
+        padding-top: 2vh;
+        translate: -3vw;
+        max-width: 120%;
+    }
+    .titulo-sobreMi{
+        width: 70%;
+    }
+    .titulo-sobreMi > h1{
+        font-size: 1.5rem;
+    }
+    
+    .titulo-sobreMi > h3{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .footer-sobreMi{
+        margin: 4vh 0 4vh 0;
+    }
+
+}
+
+/* @media (max-width:550px){
+
+} */

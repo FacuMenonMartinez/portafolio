@@ -58,3 +58,15 @@ body{
   border-radius: 5px;
 }
 
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .iconos-secciones{
+    width: 25vw;
+  }
+  .icono-item{
+    width: 15vw;
+    height: 15vw;
+  }
+
+}

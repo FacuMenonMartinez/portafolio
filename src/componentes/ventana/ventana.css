@@ -39,3 +39,14 @@
 .contenedor-seccion {
     height: 96%;
 }
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .ventana-renderizado {
+        width: 75vw;
+    }
+
+    .contenedor-botonera>span {
+        font-size: 12px;
+    }
+}

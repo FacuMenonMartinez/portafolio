@@ -12,7 +12,10 @@ function Sobre_mi() {
             <article className="contenedor-sobreMi">
 
                 <header className="encabezado-sobreMi">
+                    <div className="contenedor-avatar">
                     <img className="avatar" src={avatar} />
+
+                    </div>
                     <div className="titulo-sobreMi">
                         <h1>¡Hola! <br/>Soy Facundo Menon Martinez</h1>
                         <h3>Desarrollador Frontend</h3>
