@@ -92,4 +92,7 @@
     .contenedor-irAtras {
         width: 8vw;
     }
+    .proyecto-item>p{
+        font-size: 1rem;
+    }
 }
