@@ -20,3 +20,26 @@
     font-weight: 500;
 
 }
+
+/* RESPONSIVE */
+@media(max-width:580px){
+    
+    .cv-icono{
+        max-width: 75%;
+    }
+}
+
+@media(max-width:375px){
+    .contenedor-cv{
+        display: flex;
+        padding: 3vh 1vw 3vh 1vw;
+        max-width: 50%;
+    }
+    .curriculum-item > p{
+    font-size: 0.7rem;
+    
+    }
+    .cv-icono{
+        max-width: 75%;
+    }
+}

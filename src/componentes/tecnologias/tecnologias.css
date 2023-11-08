@@ -40,3 +40,10 @@
     }
     
 }
+
+@media(max-width:380px){
+    .contenedor-iconos>p {
+        font-size: 0.8rem;
+
+    }
+}

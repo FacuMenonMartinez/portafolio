@@ -33,6 +33,11 @@
     font-size: 2rem;
 }
 
+.titulo-sobreMi > h1::before{
+    content: '¡Hola!\A Soy ';
+    white-space: pre;
+}
+
 .titulo-sobreMi > h3{
     font-size: 1.5rem;
     font-weight: 500;
@@ -92,6 +97,43 @@
 
 }
 
-/* @media (max-width:550px){
+@media(max-width: 580px){
 
-} */
+    .contenedor-sobreMi{
+        padding: 1vh 2vw 1vh 2vw;
+    }
+    .contenedor-avatar{
+        max-width: 30%;
+    }
+
+    .titulo-sobreMi {
+    align-items: center;
+}
+
+    .titulo-sobreMi > h1{
+        font-size: 1.2rem;
+    }    
+    .titulo-sobreMi > h1::before{
+        content: '';
+    }
+    .titulo-sobreMi > h3{
+        font-size: 1rem;
+    }
+    .texto-sobreMi{
+        margin-bottom: 5vh;
+    
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+
+}
+
+@media(max-width:380px){
+    .titulo-sobreMi > h1{
+        font-size: 1rem;
+    }  
+    .img-contacto-sobreMi{
+        max-width: 60%;
+    }
+}

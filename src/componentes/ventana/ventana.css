@@ -78,3 +78,14 @@
     
 
 }
+
+@media(max-width: 425px){
+    .barra-superior>img {
+        width: 7%;
+    }
+    .contenedor-botonera>span {
+        font-size: 16px;
+        margin: 0 0.5vh;
+    }
+    
+}

@@ -16,8 +16,8 @@ function ProyectoDescripcion({ nombre, descripcion, img, enlace, repositorio }) 
             </main>
 
             <footer className="proyecto-footer">
-                <a target="_blank" href={enlace}><img src={internet} /></a>
-                <a target="_blank" href={repositorio}><img src={github} /></a>
+                <a target="_blank" href={enlace}><img className="proyecto-footer-img" src={internet} /></a>
+                <a target="_blank" href={repositorio}><img className="proyecto-footer-img" src={github} /></a>
             </footer>
 
 

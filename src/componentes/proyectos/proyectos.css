@@ -79,3 +79,17 @@
         width: 5vw;
     }
 }
+
+@media(max-width:580px){
+    .proyecto-item {
+        max-height: 50%;
+        margin-bottom: 5vh;
+    }
+
+}
+
+@media(max-width:425px){
+    .contenedor-irAtras {
+        width: 8vw;
+    }
+}

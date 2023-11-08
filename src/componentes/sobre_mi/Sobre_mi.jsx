@@ -17,7 +17,7 @@ function Sobre_mi() {
 
                     </div>
                     <div className="titulo-sobreMi">
-                        <h1>¡Hola! <br/>Soy Facundo Menon Martinez</h1>
+                        <h1>Facundo Menon Martinez</h1>
                         <h3>Desarrollador Frontend</h3>
                     </div>
                 </header>

@@ -60,3 +60,20 @@
 
 
 }
+
+@media(max-width:580px){
+    .proyecto-descripcion{
+        font-size: 1rem;
+    }
+    .proyecto-footer-img{
+        width: 75%;
+    }
+}
+
+@media(max-width:425px){
+    .proyecto-header{
+        font-size: 1.2rem;
+        margin-bottom: 2vh;
+    }
+    
+}

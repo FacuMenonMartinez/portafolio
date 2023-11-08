@@ -8,11 +8,11 @@ function Cv() {
         <section className="contenedor-seccion">
             <article className="contenedor-cv">
                 <div className="curriculum-item">
-                    <a href={curriculum} target="_blank"><img src={pdf} /></a>
+                    <a href={curriculum} target="_blank"><img className="cv-icono" src={pdf} /></a>
                     <p>verCurriculum.pdf</p>
                 </div>
                 <div className="curriculum-item">
-                    <a href={curriculum} download="FacundoMenonMartinez.pdf"><img src={descargar} /></a>
+                    <a href={curriculum} download="FacundoMenonMartinez.pdf"><img className="cv-icono" src={descargar} /></a>
                     <p>descargarCurriculum.exe</p>
                 </div>
 
