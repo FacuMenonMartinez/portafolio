@@ -50,3 +50,31 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 580px){
+    .ventana-renderizado {
+        width: 94vw;
+        min-height: 50vh;
+        height: auto;
+    }
+
+    .barra-superior {
+        height: 4vh;
+        width: 100%;
+    }
+    .barra-superior>img {
+        width: 5%;
+    }
+    .contenedor-botonera {
+        justify-content: flex-end;
+        padding-right: 1vw;
+        width: 10%;
+    }
+    .contenedor-botonera>span {
+        font-size: 18px;
+        width: 4vw;
+    }
+    
+    
+
+}
