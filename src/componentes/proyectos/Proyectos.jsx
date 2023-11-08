@@ -16,7 +16,7 @@ const proyectosData=[
         repositorio: "https://github.com/FacuMenonMartinez/notaDePasoEcommerce"
     },
         {
-        nombre: "Proyecto Catar",
+        nombre: "Proyecto Qatar",
         img:`${proyectoCatar}`,
         descripcion: "Este proyecto fue desarrollado con HTML, CSS y librerías de animación. Simula ser un sitio con el resumen del mundial Catar 2022 con información, videos y resúmenes.",
         enlace: "https://facumenonmartinez.github.io/PF-MenonMartinez/",
