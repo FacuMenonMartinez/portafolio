@@ -1,11 +1,13 @@
 import github from "../../recursos/iconos/github-ico.png";
 import internet from "../../recursos/iconos/internet-ico.png";
 import "./proyectoDescripcion.css";
+import'animate.css';
+
 function ProyectoDescripcion({ nombre, descripcion, img, enlace, repositorio }) {
 
 
     return (
-        <article className="contenedor-proyecto-descripcion">
+        <article className="animate__animated animate__zoomIn contenedor-proyecto-descripcion">
             <hader className="proyecto-header">
                 <h3>{nombre}</h3>
             </hader>

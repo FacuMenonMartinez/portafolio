@@ -2,9 +2,10 @@ import proyectoCatar from "../../recursos/proyectos/proyectoCatar-min.webp";
 import elBibliotecario from "../../recursos/proyectos/elBibliotecario-min.webp";
 import notaDePaso from "../../recursos/proyectos/notaDePaso-min.webp";
 import sombreroSeleccionador from "../../recursos/proyectos/sombreroSeleccionador-min.webp";
-import github from "../../recursos/iconos/github-ico.png";
+// import github from "../../recursos/iconos/github-ico.png";
 import ProyectoDescripcion from "../proyectoDescripcion/ProyectoDescripcion";
 import "./proyectos.css";
+import 'animate.css'
 import { useState } from "react";
 
 const proyectosData=[
@@ -54,17 +55,17 @@ function Proyectos() {
     }
 
     return (
-        <section className="contenedor-seccion">
+        <section className="animate__animated animate__fadeIn contenedor-seccion">
             <article className="contenedor-proyectos">
                 {mostrarProyectos === '' 
                 ?(proyectosData.map(item=>{
                     return(
-                    <div key={item.nombre} onClick={()=>{irAlProyecto(item.nombre)}} className="proyecto-item">
+                    <div key={item.nombre} onClick={()=>{irAlProyecto(item.nombre)}} className="animate__animated animate__fadeIn proyecto-item">
                     <img className="proyecto-img" src={item.img} />
                     <p>{item.nombre}</p>
                     </div>)
                 }))
-                :<section className="seccion-descripcion">
+                :<section className="animate__animated animate__zoomIn seccion-descripcion">
                     <div className="contenedor-irAtras" onClick={irAtras}>
                      <span className="material-symbols-outlined flecha-irAtras">arrow_back</span>
                     </div>

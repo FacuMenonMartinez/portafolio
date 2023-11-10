@@ -2,13 +2,15 @@ import avatar from "../../recursos/avatar.png";
 import linkedin from "../../recursos/iconos/linkedin-ico.png";
 import gmail from "../../recursos/iconos/gmail-ico.png";
 import github from "../../recursos/iconos/github-ico.png";
+import'animate.css';
+
 
 
 
 import './sobre_mi.css';
 function Sobre_mi() {
     return (
-        <section className="contenedor-seccion">
+        <section className="animate__animated animate__fadeIn contenedor-seccion">
             <article className="contenedor-sobreMi">
 
                 <header className="encabezado-sobreMi">

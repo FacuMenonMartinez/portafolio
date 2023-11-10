@@ -7,12 +7,14 @@ import sass from "../../recursos/iconos/sass-ico.png"
 import react from "../../recursos/iconos/react-ico.png"
 
 import "./tecnologias.css";
+import'animate.css';
+
 
 function Tecnologias() {
     return (
         <section className="contenedor-seccion">
 
-            <article className="tecnologias-contenedor">
+            <article className="animate__animated animate__fadeIn tecnologias-contenedor">
                 <div className="contenedor-iconos">
                     <img className="tecnologias-iconos" src={sass} />
                     <p>sass.exe</p>
